@@ -7,8 +7,7 @@
 ## 📌 Overview
 
 Before any GNSS data is used for positioning, atmospheric research, or geodetic
-applications, a **data quality check is mandatory**. This is the first thing a
-GNSS data engineer does when receiving a new observation file.
+applications, a **data quality check is mandatory**. This is the first thing to do to check when receiving a new observation file.
 
 This project produces a complete automated quality assessment of a RINEX 3
 observation file — covering every satellite from every constellation.
