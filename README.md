@@ -54,10 +54,15 @@ Plain-text file containing:
 
 ```
 project7-data-quality-report/
-├── project7_data_quality_report.ipynb   ← Main notebook
-├── requirements.txt                      ← Python dependencies
-├── LICENSE                               ← MIT License
-└── README.md                             ← This file
+├── Output/                                           
+│   ├── plot1_quality_dashboard.png
+│   ├── plot2_gap_map.png
+│   └── plot3_quality_scatter.png
+├── src/
+│   └── project8_gnss_data_quality_report.py          ← Main python
+├── requirements.txt                                  ← Python dependencies
+├── LICENSE                                           ← MIT License
+└── README.md                                         ← This file
 ```
 
 ---
