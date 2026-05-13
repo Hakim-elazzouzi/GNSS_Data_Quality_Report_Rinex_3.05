@@ -74,10 +74,6 @@ Higher = better (fewer interruptions relative to observations)
 # Step6: Plot 3: Quality Score Summary Scatter
 # Step7: Generate the Text Quality Report
 =============================================================================
-"""
-
-pip install --upgrade georinex
-
 # ───────────────────────────────────
 # Step 1 — Install & Import Libraries
 # ───────────────────────────────────
