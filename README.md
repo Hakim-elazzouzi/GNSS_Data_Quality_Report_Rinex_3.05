@@ -1,4 +1,4 @@
-# 📋 Project 8 — GNSS Data Quality Report
+# Project 8 — GNSS Data Quality Report
 
 > **Completeness · SNR · Cycle Slips · Multipath · Gap Map · Auto-Generated Report | Auckland, NZ**
 
