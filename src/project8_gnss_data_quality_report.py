@@ -70,7 +70,6 @@ Higher = better (fewer interruptions relative to observations)
 # ───────────────────────────────────
 # Step 1 — Install & Import Libraries
 # ───────────────────────────────────
-# Uncomment if running for the first time:
 # !pip install --upgrade georinex
 
 import georinex as gr
@@ -249,9 +248,8 @@ for sat, row in df.sort_values('coverage', ascending=False).iterrows():
 # ─────────────────────────────────────────
 # Step 4 — Plot 1: Coverage & SNR Dashboard
 # ─────────────────────────────────────────
-# ─────────────────────────────────────────────
-# Sort satellites by constellation then PRN
-# ─────────────────────────────────────────────
+# Sorting satellites by constellation then PRN
+
 df_sorted = df.sort_values(['system', 'sat'])
 sats      = df_sorted.index.tolist()
 x         = np.arange(len(sats))
@@ -359,7 +357,7 @@ print('   • MP1:      red bars = high multipath (reflections from nearby objec
 # ─────────────────────────────
 # Step 5 — Plot 2: Data Gap Map
 # ─────────────────────────────
-# Only show satellites with at least some data
+# Only showing satellites with at least some data
 
 active_sats = df_sorted[df_sorted['coverage'] > 1].index.tolist()
 n_active    = len(active_sats)
