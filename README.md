@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 Before any GNSS data is used for positioning, atmospheric research, or geodetic
 applications, a **data quality check is mandatory**. This is the first thing to do to check when receiving a new observation file.
@@ -23,7 +23,7 @@ observation file — covering every satellite from every constellation.
 
 ---
 
-## 🖼️ Output Files
+## Output Files
 
 ### Plot 1 — 4-Panel Quality Dashboard
 Four stacked bar charts for every satellite:
@@ -49,7 +49,7 @@ Plain-text file containing:
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```
 project7-data-quality-report/
@@ -66,7 +66,7 @@ project7-data-quality-report/
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### 1. Install dependencies
 
@@ -93,7 +93,7 @@ Outputs: `plot1_quality_dashboard.png`, `plot2_gap_map.png`,
 
 ---
 
-## 📐 Quality Metrics — Formulas
+## Quality Metrics — Formulas
 
 ### Cycle slip detection (L4 method):
 ```
@@ -118,7 +118,7 @@ Higher = fewer interruptions per observation → better data continuity.
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 | Package | Purpose |
 |---------|---------|
@@ -130,7 +130,7 @@ Higher = fewer interruptions per observation → better data continuity.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Hakim El Azzouzi**  
 MSc Global Navigation Satellite Systems  
@@ -141,13 +141,13 @@ Mohammed First University, Oujda, Morocco
 
 ---
 
-## 📜 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-## 🔗 GNSS RINEX Analysis Series — Complete
+## GNSS RINEX Analysis Series — Complete
 
 | # | Project |
 |---|---------|
