@@ -1,12 +1,6 @@
 =============================================================================
 🛰️ Project 8 — GNSS Data Quality Report
 =============================================================================
- Author   : Hakim El Azzouzi
- Degree   : MSc Global Navigation Satellite Systems
-            Mohammed First University, Oujda, Morocco
- Email    : elazzouzihakim10@gmail.com
- LinkedIn : https://linkedin.com/in/Hakim-El-Azzouzi
- Location : Luxembourg 🇱🇺
 -----------------------------------------------------------------------------
  Station  : AUCK00NZL  —  Auckland, New Zealand  (CDDIS / LINZ Network)
  File     : AUCK00NZL_R_20260010000_01D_30S_MO.rnx
