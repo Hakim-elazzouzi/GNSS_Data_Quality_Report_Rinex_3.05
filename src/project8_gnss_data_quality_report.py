@@ -12,23 +12,22 @@
  Description
  -----------
 Before any GNSS data is used for positioning, atmospheric research, or geodetic
-applications, a **data quality check** must be performed. This is the first thing
-a GNSS engineer does when receiving a new data file.
+applications, a **data quality check** must be performed.
 
-This project produces a **complete automated data quality report** from a RINEX 3
+This project produces a **complete automated data quality report** from a RINEX 3.05
 observation file, covering:
 
 | Check | What It Detects |
 |-------|-----------------|
-| 📊 Observation completeness | Missing epochs, data gaps, coverage per satellite |
-| 📡 Signal quality | SNR distribution, low-SNR epochs per satellite |
-| 🔢 Cycle slip detection | Phase discontinuities via L4 and Melbourne-Wübbena |
-| 📉 Code-phase consistency | Multipath proxy MP1 per satellite |
-| 🌍 Constellation health | Availability, redundancy, DOP proxy |
-| 📄 Text report | Auto-generated summary saved as `quality_report.txt` |
+| Observation completeness | Missing epochs, data gaps, coverage per satellite |
+| Signal quality | SNR distribution, low-SNR epochs per satellite |
+| Cycle slip detection | Phase discontinuities via L4 and Melbourne-Wübbena |
+| Code-phase consistency | Multipath proxy MP1 per satellite |
+| Constellation health | Availability, redundancy, DOP proxy |
+| Text report | Auto-generated summary saved as `quality_report.txt` |
 
 ---
-## 📐 Quality Metrics Used
+##  Quality Metrics Used
 
 ### 1. Observation completeness
 ```
