@@ -8,7 +8,7 @@
  LinkedIn : https://linkedin.com/in/Hakim-El-Azzouzi
  Location : Luxembourg 🇱🇺
 -----------------------------------------------------------------------------
- Station  : AUCK00NZL  —  Auckland, New Zealand  (GeoNet / LINZ Network)
+ Station  : AUCK00NZL  —  Auckland, New Zealand  (CDDIS / LINZ Network)
  File     : AUCK00NZL_R_20260010000_01D_30S_MO.rnx
  Receiver : TRIMBLE ALLOY
  Antenna  : TRM115000.00
